@@ -286,6 +286,7 @@
 .nav{
     background: #2C343E;
     height: 100px;
+    margin-top: -150px;
 }
 
 .nav1-link{
@@ -297,4 +298,102 @@
     text-align: left;
     color: white;
 }
+
+
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.dec1-title{
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.dec1-text{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+
+.dec1{
+    width: 540px;
+    height: 340px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.dec1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.quality-text{
+    font-family: Barlow;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.quality-title{
+    font-family: Fraunces 9pt;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+
+.quality{
+    width: 540px;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.cofee{
+    width: 445px;
+    height: 474px;
+}
+
+.background{
+    position: relative;
+}
+
+.quality{
+    position: absolute;
+    bottom: 100px;
+    left: 7%;
+
+}
+
+.card2-text{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.img-position{
+    position: absolute;
+    bottom: 70px;
+    left: 750px;
+}
+
 
